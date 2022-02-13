@@ -1,24 +1,15 @@
 @charset "ISO-8859-1";
 html, body {
-	height: 100%;
-	width: 100%;
-	color: #667e8e;
-	background-color: #3d474b;
-}
-.bg {
-	height: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-image: url("../img/background.jpg");
+	background-color: black;
 }
 .fg {
 	position: absolute;
-	height: 200px;
-	width: 440px;
+	height: 50px;
+	width: 320px;
 	top: 50%;
 	left: 50%;
-	margin: -100px 0 0 -220px;
+	margin: -25px 0 0 -160px;
+	padding: 30px 0 0 0;
 	background-color: black;
 	text-align: center;
 	box-shadow: 0 0 10px #93bdff, 0 0 5px #70a8ff;
@@ -39,14 +30,8 @@ ul.links {
 	text-decoration: none;
 	text-shadow: 2px 2px #494949;
 	font-family: "Verdana";
-	color: white;
+	color: #93bdff;
 }
 .links li a:hover {
-	color: #e3afd4;
-}
-#name {
-	height: 116px;
-	width: 400px;
-	padding-top: 25px;
-	padding-bottom: 5px
+	color: white;
 }
