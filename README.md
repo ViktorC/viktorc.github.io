@@ -1,2 +1,0 @@
-# viktorc.net
-My website.
